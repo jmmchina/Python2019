@@ -72,12 +72,12 @@
 # else:
 #     print('请输入正确的单位')
 
-trig_lines = []
-for i in range(1,4):
-    trig_lines.append(float(input('请输入第'+str(i)+'条边的长度： ')))
+# trig_lines = []
+# for i in range(1,4):
+#     trig_lines.append(float(input('请输入第'+str(i)+'条边的长度： ')))
 
-long_line = trig_lines.pop(max(trig_lines))
-if long_line <= trig_lines[0] + trig_lines[1]:
-    print('请输入正确的边长')
-else:
-    print(long_line + trig_lines[0] + trig_lines[1])
+# long_line = trig_lines.pop(max(trig_lines))
+# if long_line <= trig_lines[0] + trig_lines[1]:
+#     print('请输入正确的边长')
+# else:
+#     print(long_line + trig_lines[0] + trig_lines[1])
